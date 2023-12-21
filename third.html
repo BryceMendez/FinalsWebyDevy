@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Website ECommerce (Advantache)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        #lol-container {
+            width: 55%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        button{
+            margin-top: 15px;
+            border: none;
+        }
+        
+        .haha {
+            border: none;
+            background-color: transparent;
+            text-align: center;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        #wew{
+            background-color: black;
+            color: white;
+            white-space: nowrap;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        </style>
+</head>
+<body>
+    <section id="header">
+        <div class="logo-container">
+            <a href="#" class="logo"><img src="logo.png" width="70px" height="50px" class="logo"></a>
+            <div class="logo-text">
+                <h6>GAMING RIFT</h6>
+                <h6>MARKETPLACE</h6>
+            </div>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><img src="hue.png" width="40px" height="40px"></a>
+        </div>
+        <div id="bar" onclick="toggleSidebar()"> 
+            <img src="bar.png" width="40px" height="40px">
+        </div>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="third.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="topup-page.html">Top Ups</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactpage.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><img src="hue.png" width="30px" height="25px"></a></li>
+                <a href="#" id="close-sidebar" onclick="toggleSidebar()"><img src="close.png" width="30px" height="25px"></a>
+            </ul>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h5>Trade in Offer</h5>
+        <h4>Virtual Market Place</h4>
+        <h3>IN-GAME items metaverse</h3>
+        <p>Reliable and safe marketplace with the best video game item deals.</p>
+        <a href="shop.html"><button><img src="shoop.png" width="45px" height="45px"></button></a>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="featureBox">
+            <img src="sword2.png" alt="">
+            <h6>Weapons</h6>
+        </div>
+        <div class="featureBox">
+            <img src="potion.png" alt="">
+            <h6>Potions</h6>
+        </div>
+        <div class="featureBox">
+            <img src="armor.png" alt="">
+            <h6>Armors</h6>
+        </div>
+        <div class="featureBox">
+            <img src="hero.png" alt="">
+            <h6>Heroes</h6>
+        </div>
+    </section>
+
+    <section id="BestSelling" class="section-p1">
+        <h2 class="text">BEST SELLING ITEMS</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="shopp7.jpg">
+                <div class="des">
+                    <span>Potion</span>
+                    <h6>Juveneil spawn Elixir</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 13,000</h7>
+                    <br>
+                    <h7>5,500 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopp1.jpg" alt="">
+                <div class="des">
+                    <span>Potion</span>
+                    <h6>Deadmans Chalice</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 14,300</h7>
+                    <br>
+                    <h7>7,000 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopa2.jpg">
+                <div class="des">
+                    <span>Armor</span>
+                    <h6>Garb of Euryale</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 42,500</h7>
+                    <br>
+                    <h7>31,300 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopw9.jpg">
+                <div class="des">
+                    <span>Weapon</span>
+                    <h6>Stick and Stores</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 1,000</h7>
+                    <br>
+                    <h7>800 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopw8.jpg">
+                <div class="des">
+                    <span>Weapon</span>
+                    <h6>Radian Soulspear</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 14,000</h7>
+                    <br>
+                    <h7>5,000 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopp2.jpg">
+                <div class="des">
+                    <span>Potion</span>
+                    <h6>Acidic Squirtbloom</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 28,5000</h7>
+                    <br>
+                    <h7>16,300 GRCoins</h7>
+                </div>        
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopw3.jpg">
+                <div class="des">
+                    <span>Weapon</span>
+                    <h6>Caster Blaster</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 6,000</h7>
+                    <br>
+                    <h7>3,000 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopw4.jpg">
+                <div class="des">
+                    <span>Weapon</span>
+                    <h6>Gunspier</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 4,000</h7>
+                    <br>
+                    <h7>2,000 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopp4.jpg">
+                <div class="des">
+                    <span>Potion</span>
+                    <h6>Tinytar</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 1,000</h7>
+                    <br>
+                    <h7>600 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopa3.jpg">
+                <div class="des">
+                    <span>Armor</span>
+                    <h6>Demon Hunter Kimonor</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 60,000</h7>
+                    <br>
+                    <h7>15,00 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <div id="lol-container">
+            <a id="lol" href="exp.html">
+            <button class="normal">Explore More</button>
+            </a>
+        </div>
+    </section>
+
+    <section id="BestSelling" class="section-p1">
+        <h2 class="text">FEATURED ITEMS</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="d1.jpg">
+                <div class="des">
+                    <span>Weapon</span>
+                    <h6>That Witch Hungers</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 5,000</h7>
+                    <br>
+                    <h7>3,500 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="d2.jpg">
+                <div class="des">
+                    <span>Weapon</span>
+                    <h6>Coruscant cutlass</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 3,000</h7>
+                    <br>
+                    <h7>1,500 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="d3.jpg">
+                <div class="des">
+                    <span>Weapon</span>
+                    <h6>Curse of Thee</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 1,500</h7>
+                    <br>
+                    <h7>700 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="Shopp9.jpg">
+                <div class="des">
+                    <span>Potion</span>
+                    <h6>Wasp Berry Jam</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 15,000</h7>
+                    <br>
+                    <h7>7,800 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="d5.jpg">
+                <div class="des">
+                    <span>Armor</span>
+                    <h6>Callous Embrace</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 8,900</h7>
+                    <br>
+                    <h7>4,600 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="d6.jpg">
+                <div class="des">
+                    <span>Potion Maker</span>
+                    <h6>Table Turner</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 6,000 pesos</h7>
+                    <br>
+                    <h7>3,000 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopw6.jpg">
+                <div class="des">
+                    <span>Weapon</span>
+                    <h6>Black Ruins</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 10,000 pesos</h7>
+                    <br>
+                    <h7>5,000 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="d8.jpg">
+                <div class="des">
+                    <span>Weapon</span>
+                    <h6>Hexecutioner Blade</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 10,000</h7>
+                    <br>
+                    <h7>8,000 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopp6.jpg">
+                <div class="des">
+                    <span>Potion</span>
+                    <h6>Cursed Beast Serum</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 20,000</h7>
+                    <br>
+                    <h7>15,000 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="shopp3.jpg">
+                <div class="des">
+                    <span>Potion</span>
+                    <h6>Spare thoughts</h6>
+                    <h6>⭐⭐⭐⭐⭐​​ </h6>
+                    <h7>₱ 3,000</h7>
+                    <br>
+                    <h7>1,000 GRCoins</h7>
+                </div>
+                <a href="SAD.html" class="carticon">
+                    <img src="addCart.png">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+        </div>
+
+        <div class="banner-box2">
+        </div>
+
+        <div class="banner-box3">
+        </div>
+
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Gaming Rift Marketplace</h4>
+            <p>Sign Up to get more updates with gaming rift marketplace</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <a id="wew" href="sign.html">
+                <button class="wtf">Sign Up</button>
+            </a>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo.png" width="90px" height="70px">
+            <h5>CONTACT</h5>
+            <p><strong>Adress: </strong> University of Cebu - Banilad</p>
+            <p><strong>Phone: </strong> 09-6858-6110</p>
+            <p><strong>Hours: </strong> 24 Hours Open</p>
+            <div class="follow">
+                <h5>Follow us</h5>
+                <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100009844337998">
+                        <img src="fb.png" width="30px" height="30px">
+                    </a>
+                    <a href="https://discord.gg/VXDAPgeF">
+                        <img src="discord.png" width="30px" height="30px">
+                    </a>
+                    <a href="https://www.instagram.com/yce_mndz/">
+                        <img src="insta.png" width="30px" height="30px">
+                    </a>
+                    <a href="https://www.pinterest.ph/YCEY_B/">
+                        <img src="pinterest.png" width="30px" height="30px">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h5>ABOUT</h5>
+            <a href="about.html">About us</a>
+            <a href="about.html">Privacy Policy</a>
+            <a href="about.html">Terms and Conditions</a>
+            <a href="contactpage.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h5>MY ACCOUNT</h5>
+            <a href="waw.html">Sign In</a>
+            <a href="cart.html">View cart</a>
+            <a href="contactpage.html">Help</a>
+        </div>
+
+        <div class="col install">
+            <h5>GET MORE INFORMATION</h5>
+            <p> Visit our Facebook Page </p>
+            <p>your trusted and secure gaming shop</p>
+            <img src="control.png" width="50px" height="50px">
+        </div>
+
+        <div class="copyright">
+
+            <p>@2023.FinalProject/HTML/CSS/JAVA/WebyDevy.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

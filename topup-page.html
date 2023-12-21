@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Website ECommerce (Advantache)</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body{
+        background: url(papi.jpg);
+        background-size: cover;
+    }
+   #Recharge .pro-container{
+        margin-top: 0px;
+        display: flex;
+        margin-left: 40px;
+        justify-content: space-between;
+        padding: 20px;
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+    #Recharge .pro-container
+     .pro{
+        width: calc(23% - 10px);
+        max-width: 200px;
+        padding: 10px 12px;
+        border: 5px solid black;
+        border-radius: 20px;
+        cursor: pointer;
+        margin: 10px;
+        box-shadow: 10px 10px 20px rgb(255, 183, 48);
+        transition: 0.2s ease;
+        position: relative;
+        margin-top: 0;
+    }
+    
+    #Recharge .pro-container
+     .pro:hover{
+        box-shadow: 10px 10px 20px rgb(255, 119, 0);
+    }
+    #Recharge .pro-container
+     .pro .buun{
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        color: black;
+        background-color: orange;
+        font-size: large;
+    }
+    
+    #Recharge .pro-container
+     .pro .des{
+        text-align: start;
+        padding: 10px 0;
+    }
+    #Recharge .pro-container
+     .pro .des span{
+        color: orange;
+        font-size: 12px;
+    }
+    
+    #Recharge .pro-container .pro .buun:focus {
+        background-color: orangered;
+        outline-color:black;
+        font-size: 14px;
+    }
+    #Recharge .pro-container
+     .pro .des {
+        padding-top: 7px;
+        font-size: 15px;
+        color: orange;
+    }
+    #Recharge .pro img{
+        width: 100%;
+        height: auto;
+        border-radius: 18px;
+    }
+    #Recharge .pro-container
+     .pro-container .pro a.carticon img{
+        width: 30px;
+        height: 30px;
+        line-height: 40px;
+        border-radius: 50px;
+        font-weight: 500;
+        position:absolute;
+        bottom: 20px;
+        right: 10px;
+    }
+    #Recharge .pro-container
+     .pro .buun:focus{
+        background-color: #1e1e1e;
+    }
+
+    #Recharge, h2 .text{
+        text-align: center;
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 799px) {
+        #Recharge .pro {
+            width: 50%;
+            margin: 0; /* Set margin to zero */
+            box-sizing: border-box; /* Include border and padding in the width calculation */
+        }
+
+        #Recharge .pro img {
+            width: 100%;
+            height: auto;
+        }
+
+        #Recharge .pro-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0; /* Set margin to zero */
+            padding: 0; /* Set padding to zero */
+        }
+
+        #Recharge .pro-container .pro {
+            flex-basis: calc(100% - 0px); /* Adjusted to include margin */
+            box-sizing: border-box; /* Include border and padding in the width calculation */
+        }
+
+        #Recharge .pro-container .pro a.bunn img {
+            bottom: 10px;
+            right: 10px;
+        }
+    }
+</style>
+</head>
+<body>
+    <section id="header">
+        <div class="logo-container">
+            <a href="#" class="logo"><img src="logo.png" width="70px" height="50px" class="logo"></a>
+            <div class="logo-text">
+                <h6>GAMING RIFT</h6>
+                <h6>MARKETPLACE</h6>
+            </div>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><img src="hue.png" width="40px" height="40px"></a>
+        </div>
+        <div id="bar" onclick="toggleSidebar()"> 
+            <img src="bar.png" width="40px" height="40px">
+        </div>
+        <div>
+            <ul id="navbar">
+                <li><a href="third.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="topup-page.html">Top Ups</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactpage.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><img src="hue.png" width="30px" height="25px"></a></li>
+                <a href="#" id="close-sidebar" onclick="toggleSidebar()"><img src="close.png" width="30px" height="25px"></a>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Recharge" class="section-p1">
+        <h2 class="text">GAMING RIFT TOP-UPS</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="GRcoin.png">
+                <div class="des">
+                    <h2>50 GRcoins</h2><br>
+                    <h7>(50+5 Bonus)</h7><br>
+                    <h7>₱50</h7>
+                </div>
+                <a href="avail.html" class="carticon">
+                    <button class="buun">Avail</button>
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="GRcoin.png" alt="">
+                <div class="des">
+                    <h2>300 GRcoins</h2><br>
+                    <h7>(250+50 Bonus)</h7><br>
+                    <h7>₱250</h7>
+                </div>
+                <a href="avail.html" class="carticon">
+                    <button class="buun">Avail</button>
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="GRcoin.png">
+                <div class="des">
+                    <h2>600 GRcoins</h2><br>
+                    <h7>(500+100 Bonus)</h7><br>
+                    <h7>₱500</h7>
+                </div>
+                <a href="avail.html" class="carticon">
+                    <button class="buun">Avail</button>
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="GRcoin.png">
+                <div class="des">
+                    <h2>1,150 GRcoins</h2><br>
+                    <h7>(1000+150 Bonus)</h7><br>
+                    <h7>₱1,000</h7>
+                </div>
+                <a href="avail.html" class="carticon">
+                    <button class="buun">Avail</button>
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="GRcoin.png">
+                <div class="des">
+                    <h2>2,750 GRcoins</h2><br>
+                    <h7>(2500+250 Bonus)</h7><br>
+                    <h7>₱2500</h7>
+                </div>
+                <a href="avail.html" class="carticon">
+                    <button class="buun">Avail</button>
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="GRcoin.png">
+                <div class="des">
+                    <h2>6,000 GRcoins</h2><br>
+                    <h7>(5000+1,000 Bonus)</h7><br>
+                    <h7>₱5,000</h7>
+                </div>
+                <a href="avail.html" class="carticon">
+                    <button class="buun">Avail</button>
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="GRcoin.png">
+                <div class="des">
+                    <h2>12,000GRcoins</h2><br>
+                    <h7>(10,000+2,000 Bonus)</h7><br>
+                    <h7>₱10,000</h7>
+                </div>
+                <a href="avail.html" class="carticon">
+                    <button class="buun">Avail</button>
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="GRcoin.png">
+                <div class="des">
+                    <h2>17,500GRcoins</h2><br>
+                    <h7>(15,000+2,500 Bonus)</h7><br>
+                    <h7>₱15,000</h7>
+                </div>
+                <a href="avail.html" class="carticon">
+                    <button class="buun">Avail</button>
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="GRcoin.png">`
+                <div class="des">
+                    <h2>23,000GRcoins</h2><br>
+                    <h7>(20,000+3,000 Bonus)</h7><br>
+                    <h7>₱20,000</h7>
+                </div>
+                <a href="avail.html" class="carticon">
+                    <button class="buun">Avail</button>
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="pro">
+                <img src="GRcoin.png">
+                <div class="des">
+                    <h2>34,000GRcoins</h2><br>
+                    <h7>(30,000+4,000 Bonus)</h7><br>
+                    <h7>₱30,000</h7>
+                </div>
+                <a href="avail.html" class="carticon">
+                    <button class="buun">Avail</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo.png" width="90px" height="70px">
+            <h5>CONTACT</h5>
+            <p><strong>Adress: </strong> University of Cebu - Banilad</p>
+            <p><strong>Phone: </strong> 09-6858-6110</p>
+            <p><strong>Hours: </strong> 24 Hours Open</p>
+            <div class="follow">
+                <h5>Follow us</h5>
+                <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100009844337998">
+                        <img src="fb.png" width="30px" height="30px">
+                    </a>
+                    <a href="https://discord.gg/VXDAPgeF">
+                        <img src="discord.png" width="30px" height="30px">
+                    </a>
+                    <a href="https://www.instagram.com/yce_mndz/">
+                        <img src="insta.png" width="30px" height="30px">
+                    </a>
+                    <a href="https://www.pinterest.ph/YCEY_B/">
+                        <img src="pinterest.png" width="30px" height="30px">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h5>ABOUT</h5>
+            <a href="about.html">About us</a>
+            <a href="about.html">Privacy Policy</a>
+            <a href="about.html">Terms and Conditions</a>
+            <a href="contactpage.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h5>MY ACCOUNT</h5>
+            <a href="waw.html">Sign In</a>
+            <a href="cart.html">View cart</a>
+            <a href="contactpage.html">Help</a>
+        </div>
+
+        <div class="col install">
+            <h5>GET MORE INFORMATION</h5>
+            <p> Visit our Facebook Page </p>
+            <p>your trusted and secure gaming shop</p>
+            <img src="control.png" width="50px" height="50px">
+        </div>
+
+        <div class="copyright">
+
+            <p>@2023.FinalProject/HTML/CSS/JAVA/WebyDevy.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
